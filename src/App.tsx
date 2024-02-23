@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import AppRoutes from './routes/routes'
 import GlobalStyle from './theme/theme'
 
@@ -8,7 +8,7 @@ function App() {
       <AppRoutes />
       <GlobalStyle />
     </>
-  );
+  )
 }
 
-export default App;
+export default App

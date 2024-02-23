@@ -1,13 +1,12 @@
 import React from 'react'
-import {
-  Content,
-} from './style'
+import { Content, WelcomeContent, Text } from './style'
 
 function NavBar() {
-
   return (
     <Content>
-      <p>NavBar</p>
+      <WelcomeContent>
+        <Text>Bem vindo, Paulo</Text>
+      </WelcomeContent>
     </Content>
   )
 }

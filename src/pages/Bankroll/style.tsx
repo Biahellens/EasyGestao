@@ -13,7 +13,7 @@ export const Content = styled.div`
   flex-wrap: wrap;
   justify-content: center;
 
-  @media (max-width: 768px){
+  @media (max-width: 768px) {
     width: 100%;
   }
 `
