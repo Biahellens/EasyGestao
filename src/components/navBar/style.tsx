@@ -154,7 +154,6 @@ export const ButtoNew = styled.button`
 `
 
 export const HomeLink = styled(Link)`
-  width: auto;
   text-decoration: none;
   width: 100%;
   display: flex;
@@ -162,5 +161,9 @@ export const HomeLink = styled(Link)`
 
   @media (min-width: 768px) {
     display: none;
+  }
+
+  @media (max-width: 768px) {
+    width: auto;
   }
 `
