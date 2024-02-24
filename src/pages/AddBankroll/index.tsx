@@ -18,7 +18,7 @@ import {
 import { NavBar, Header } from '../../components'
 
 import toBack from '../../assets/toBack.svg'
-import attach_money from '../../assets/attach_money.svg'
+import attach_money from '../../assets/bankrolls/attach_money.svg'
 
 function AddBankroll() {
   return (
