@@ -38,130 +38,16 @@ export const Title = styled.text`
   line-height: 24px;
   font-weight: 500;
   color: #fbfbfb;
+  margin-left: 0.8rem;
 `
 
 export const Img = styled.img<{ $size?: boolean }>`
-  width: ${(props) => (props.$size ? '48px' : '32px')};
-  height: ${(props) => (props.$size ? '48px' : '32px')};
+  width: ${(props) => (props.$size ? '48px' : '28px')};
+  height: ${(props) => (props.$size ? '48px' : '28px')};
+  margin-left: 0.8rem;
 
   @media (max-width: 768px) {
     width: ${(props) => (props.$size ? '48px' : '24px')};
     height: ${(props) => (props.$size ? '48px' : '24px')};
-  }
-`
-
-export const FormContent = styled.form`
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin-top: 5rem;
-
-  @media (max-width: 768px) {
-    display: flex;
-    justify-content: center;
-  }
-`
-
-export const ItemContent = styled.div`
-  width: 40%;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 10px;
-  margin-bottom: 8px;
-
-  @media (max-width: 768px) {
-    width: 100%;
-    padding: 10px 0 10px 0;
-    display: flex;
-    justify-content: center;
-  }
-`
-
-export const Label = styled.label`
-  width: 100%;
-  font-size: 16px;
-  color: #fbfbfb;
-  font-weight: 600;
-  line-weight: 20px;
-
-  @media (max-width: 768px) {
-    width: 90%;
-  }
-`
-
-export const Input = styled.input<{ $size?: boolean }>`
-  width: 100%;
-  height: 28px;
-  margin-top: 20px;
-  padding: 4px;
-  background-color: #181c3c;
-  border: 1px solid #5b5fc0;
-  border-radius: 10px;
-  text-align: start;
-  font-size: 16px;
-  line-height: 18px;
-  font-weight: 300;
-  color: #8a8a8a;
-
-  @media (max-width: 768px) {
-    width: 90%;
-  }
-`
-
-export const Select = styled.select`
-  width: 100%;
-  height: 40px;
-  margin-top: 20px;
-  padding: 4px;
-  background-color: #181c3c;
-  border: 1px solid #5b5fc0;
-  border-radius: 10px;
-  text-align: start;
-  font-size: 16px;
-  line-height: 18px;
-  font-weight: 300;
-  color: #8a8a8a;
-
-  @media (max-width: 768px) {
-    width: 90%;
-  }
-`
-
-export const Option = styled.option`
-  width: 100%;
-  height: 30px;
-  padding: 4px;
-  background-color: #181c3c;
-  border: 1px solid #5b5fc0;
-  border-radius: 10px;
-  text-align: start;
-  font-size: 16px;
-`
-
-export const ButtonContent = styled.div`
-  width: 87%;
-  display: flex;
-  justify-content: end;
-
-  @media (max-width: 768px) {
-    width: 90%;
-    margin-top: 8px;
-  }
-`
-
-export const Button = styled.button`
-  background-color: #1ce3c7;
-  border: none;
-  border-radius: 8px;
-  padding: 8px 16px 8px 16px;
-  font-size: 16px;
-  font-weight: 600;
-  color: #004037;
-  transition: text-shadow 0.3s ease-in-out;
-
-  @media (max-width: 768px) {
-    width: 100%;
   }
 `
