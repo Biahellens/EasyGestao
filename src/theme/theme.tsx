@@ -7,6 +7,11 @@ const GlobalStyle = createGlobalStyle`
     vertical-align:baseline;
     list-style:none;
     border:0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
   },
 
   body, html {
