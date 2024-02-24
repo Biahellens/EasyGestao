@@ -1,7 +1,15 @@
 import React from 'react'
-import { Content, Main, Title, TitleContent, Img } from './style'
+import {
+  Content,
+  Main,
+  Title,
+  TitleContent,
+  Img,
+  GridContent,
+  Items,
+} from './style'
 
-import { NavBar, Header } from '../../components'
+import { NavBar, Header, CardBankRoll } from '../../components'
 
 import toBack from '../../assets/toBack.svg'
 import manage_accounts from '../../assets/bankrolls/manage_accounts.svg'
@@ -17,6 +25,19 @@ function Bankroll() {
           <Img src={manage_accounts} />
           <Title>Gerir suas bancas</Title>
         </TitleContent>
+        <Items>
+          <GridContent>
+            <CardBankRoll />
+            <CardBankRoll />
+            <CardBankRoll />
+            <CardBankRoll />
+            <CardBankRoll />
+            <CardBankRoll />
+            <CardBankRoll />
+            <CardBankRoll />
+            <CardBankRoll />
+          </GridContent>
+        </Items>
       </Content>
     </Main>
   )
