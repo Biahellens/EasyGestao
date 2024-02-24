@@ -9,6 +9,7 @@ export const Main = styled.div`
 export const Content = styled.div`
   width: 100%;
   height: 100vh;
+  overflow: hidden;
   flex-wrap: wrap;
   justify-content: center;
   background-color: #1c1d33;
@@ -24,7 +25,6 @@ export const TitleContent = styled.div`
   align-items: center;
   display: flex;
   margin-top: 2rem;
-  margin-left: 4rem;
 
   @media (max-width: 768px) {
     margin-top: 0.5rem;
