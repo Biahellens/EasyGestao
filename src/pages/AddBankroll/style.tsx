@@ -59,8 +59,13 @@ export const FormContent = styled.form`
   margin-top: 5rem;
 
   @media (max-width: 768px) {
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    position: fixed;
   }
 `
 
@@ -72,7 +77,7 @@ export const ItemContent = styled.div`
   margin-bottom: 8px;
 
   @media (max-width: 768px) {
-    width: 100%;
+    width: 80%;
     padding: 10px 0 10px 0;
     display: flex;
     justify-content: center;
@@ -87,7 +92,7 @@ export const Label = styled.label`
   line-weight: 20px;
 
   @media (max-width: 768px) {
-    width: 90%;
+    width: 100%;
   }
 `
 
@@ -106,7 +111,7 @@ export const Input = styled.input<{ $size?: boolean }>`
   color: #8a8a8a;
 
   @media (max-width: 768px) {
-    width: 90%;
+    width: 100%;
   }
 `
 
@@ -125,7 +130,7 @@ export const Select = styled.select`
   color: #8a8a8a;
 
   @media (max-width: 768px) {
-    width: 90%;
+    width: 100%;
   }
 `
 
@@ -138,6 +143,10 @@ export const Option = styled.option`
   border-radius: 10px;
   text-align: start;
   font-size: 16px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `
 
 export const ButtonContent = styled.div`
@@ -146,7 +155,7 @@ export const ButtonContent = styled.div`
   justify-content: end;
 
   @media (max-width: 768px) {
-    width: 90%;
+    width: 80%;
     margin-top: 8px;
   }
 `
