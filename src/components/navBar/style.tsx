@@ -55,7 +55,7 @@ export const TopContent = styled.div`
 `
 
 export const WelcomeContent = styled.div`
-  width: 40%;
+  width: 50%;
   height: auto;
   margin-top: 60px;
 
