@@ -41,7 +41,7 @@ function NavBar() {
             <TextLink>Cliente</TextLink>
           </RouteLink>
           <ButtoNew>+</ButtoNew>
-          <RouteLink to="/">
+          <RouteLink to="/bankroll">
             <RouteImg src={bid_landscape} />
             <TextLink>Minhas Bancas</TextLink>
           </RouteLink>
