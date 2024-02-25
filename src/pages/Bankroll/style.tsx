@@ -9,26 +9,24 @@ export const Main = styled.div`
 export const Content = styled.div`
   width: 100%;
   height: 100vh;
-  overflow: hidden;
+  overflow-y: auto;
   flex-wrap: wrap;
   justify-content: center;
   background-color: #1c1d33;
-
-  @media (max-width: 768px) {
-    width: 100%;
-  }
+  background-size: cover;
 `
 
 export const TitleContent = styled.div`
-  width: 100%;
+  width: 80%;
   text-align: start;
   align-items: center;
   display: flex;
   margin-top: 2rem;
+  margin-left: 2rem;
 
   @media (max-width: 768px) {
     margin-top: 0.5rem;
-    margin-left: 0.5rem;
+    margin-left: 0;
   }
 }
 `
@@ -60,13 +58,20 @@ export const Items = styled.div`
 
 export const GridContent = styled.div`
   width: 100%;
+  margin-top: 2rem;
   display: grid;
   justify-content: space-evenly;
   place-items: center;
-  grid-template-columns: 360px 360px 360px;
-  grid-auto-rows: 345px;
+  grid-template-columns: 26% 26% 26%;
+  grid-auto-rows: 225px;
 
   @media (max-width: 768px) {
-    grid-template-columns: 100%;
+    grid-template-columns: 80%;
+    padding-bottom: 120px;
+  }
+
+  @media (min-width: 770px) and (max-width: 1100px) {
+    grid-template-columns: 90%;
+    padding-bottom: 120px;
   }
 `

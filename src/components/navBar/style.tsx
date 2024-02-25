@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export const Content = styled.div`
   width: 15%;
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
