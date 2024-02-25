@@ -20,11 +20,12 @@ export const Content = styled.div`
 `
 
 export const TitleContent = styled.div`
-  width: 100%;
+  width: 80%;
   text-align: start;
   align-items: center;
   display: flex;
   margin-top: 2rem;
+  margin-left: 2rem;
 
   @media (max-width: 768px) {
     margin-top: 0.5rem;
