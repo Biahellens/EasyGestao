@@ -27,15 +27,105 @@ function Bankroll() {
         </TitleContent>
         <Items>
           <GridContent>
-            <CardBankRoll />
-            <CardBankRoll />
-            <CardBankRoll />
-            <CardBankRoll />
-            <CardBankRoll />
-            <CardBankRoll />
-            <CardBankRoll />
-            <CardBankRoll />
-            <CardBankRoll />
+            <CardBankRoll
+              name="Minha banca"
+              unit="R$10,00"
+              stake="1"
+              initialBanking="R$100,00"
+              profit="R$350"
+              roi="70.00"
+              appetizer="20"
+              negative="5"
+              positive="15"
+            />
+            <CardBankRoll
+              name="Minha banca"
+              unit="R$10,00"
+              stake="1"
+              initialBanking="R$100,00"
+              profit="R$350"
+              roi="70.00"
+              appetizer="20"
+              negative="5"
+              positive="15"
+            />
+            <CardBankRoll
+              name="Minha banca"
+              unit="R$10,00"
+              stake="1"
+              initialBanking="R$100,00"
+              profit="R$350"
+              roi="70.00"
+              appetizer="20"
+              negative="5"
+              positive="15"
+            />
+            <CardBankRoll
+              name="Minha banca"
+              unit="R$10,00"
+              stake="1"
+              initialBanking="R$100,00"
+              profit="R$350"
+              roi="70.00"
+              appetizer="20"
+              negative="5"
+              positive="15"
+            />
+            <CardBankRoll
+              name="Minha banca"
+              unit="R$10,00"
+              stake="1"
+              initialBanking="R$100,00"
+              profit="R$350"
+              roi="70.00"
+              appetizer="20"
+              negative="5"
+              positive="15"
+            />
+            <CardBankRoll
+              name="Minha banca"
+              unit="R$10,00"
+              stake="1"
+              initialBanking="R$100,00"
+              profit="R$350"
+              roi="70.00"
+              appetizer="20"
+              negative="5"
+              positive="15"
+            />
+            <CardBankRoll
+              name="Minha banca"
+              unit="R$10,00"
+              stake="1"
+              initialBanking="R$100,00"
+              profit="R$350"
+              roi="70.00"
+              appetizer="20"
+              negative="5"
+              positive="15"
+            />
+            <CardBankRoll
+              name="Minha banca"
+              unit="R$10,00"
+              stake="1"
+              initialBanking="R$100,00"
+              profit="R$350"
+              roi="70.00"
+              appetizer="20"
+              negative="5"
+              positive="15"
+            />
+            <CardBankRoll
+              name="Minha banca"
+              unit="R$10,00"
+              stake="1"
+              initialBanking="R$100,00"
+              profit="R$350"
+              roi="70.00"
+              appetizer="20"
+              negative="5"
+              positive="15"
+            />
           </GridContent>
         </Items>
       </Content>

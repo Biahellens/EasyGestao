@@ -1,4 +1,5 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import {
   Content,
   Main,
@@ -21,6 +22,12 @@ import toBack from '../../assets/toBack.svg'
 import edit from '../../assets/bankrolls/edit.svg'
 
 function EditBankroll() {
+  const navigate = useNavigate()
+
+  const handleSubmit = async () => {
+    navigate('/bankroll')
+  }
+
   return (
     <Main>
       <NavBar />
@@ -63,7 +70,9 @@ function EditBankroll() {
             <Input placeholder="R$10,00" />
           </ItemContent>
           <ButtonContent>
-            <Button type="submit">Salvar alterações</Button>
+            <Button type="submit" onClick={handleSubmit}>
+              Salvar alterações
+            </Button>
           </ButtonContent>
         </FormContent>
       </Content>
