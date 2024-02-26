@@ -19,7 +19,7 @@ const Login = () => {
   const navigate = useNavigate()
 
   const handleSubmit = async () => {
-    navigate('/')
+    navigate('/newBankroll')
   }
 
   return (
