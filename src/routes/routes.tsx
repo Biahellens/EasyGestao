@@ -9,6 +9,7 @@ import {
   Login,
   Appetizer,
   AppetizerSimple,
+  AppetizerMultiple,
 } from '../pages'
 
 const AppRoutes = () => {
@@ -23,6 +24,7 @@ const AppRoutes = () => {
         <Route path="/editBankroll" element={<EditBankroll />} />
         <Route path="/appetizer" element={<Appetizer />} />
         <Route path="/appetizerSimple" element={<AppetizerSimple />} />
+        <Route path="/appetizerMultiple" element={<AppetizerMultiple />} />
       </Routes>
     </Router>
   )

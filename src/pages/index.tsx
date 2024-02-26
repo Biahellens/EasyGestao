@@ -6,6 +6,7 @@ import AddBankroll from './Bankrolls/AddBankroll'
 import EditBankroll from './Bankrolls/EditBankroll'
 import Appetizer from './Appetizers/Appetizer'
 import AppetizerSimple from './Appetizers/AppetizerSimple'
+import AppetizerMultiple from './Appetizers/AppetizerMultiple'
 
 export {
   Home,
@@ -16,4 +17,5 @@ export {
   Login,
   Appetizer,
   AppetizerSimple,
+  AppetizerMultiple,
 }
