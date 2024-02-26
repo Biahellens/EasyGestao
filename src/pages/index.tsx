@@ -9,6 +9,8 @@ import AppetizerSimple from './Appetizers/AppetizerSimple'
 import AppetizerMultiple from './Appetizers/AppetizerMultiple'
 import AppetizerBack from './Appetizers/AppetizerBack'
 import AppetizerLay from './Appetizers/AppetizerLay'
+import AppetizerCash from './Appetizers/AppetizerCash'
+import AppetizerMTT from './Appetizers/AppetizerMTT'
 
 export {
   Home,
@@ -22,4 +24,6 @@ export {
   AppetizerMultiple,
   AppetizerBack,
   AppetizerLay,
+  AppetizerCash,
+  AppetizerMTT,
 }

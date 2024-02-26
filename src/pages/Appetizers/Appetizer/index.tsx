@@ -44,33 +44,33 @@ function Appetizer() {
               </LinkType>
             </CardType>
             <CardType>
-              <LinkType to="/">
+              <LinkType to="/appetizerMultiple">
                 <Icon src={multiple} />
-                <Text>Simples</Text>
+                <Text>Multiplas</Text>
               </LinkType>
             </CardType>
             <CardType>
-              <LinkType to="/">
+              <LinkType to="/appetizerBack">
                 <Icon src={check} />
-                <Text>Simples</Text>
+                <Text>Back</Text>
               </LinkType>
             </CardType>
             <CardType>
-              <LinkType to="/">
+              <LinkType to="/appetizerLay">
                 <Icon src={lay} />
-                <Text>Simples</Text>
+                <Text>Lay</Text>
               </LinkType>
             </CardType>
             <CardType>
-              <LinkType to="/">
+              <LinkType to="/appetizerCash">
                 <Icon src={cash} />
-                <Text>Simples</Text>
+                <Text>Cash</Text>
               </LinkType>
             </CardType>
             <CardType>
-              <LinkType to="/">
+              <LinkType to="/appetizerMTT">
                 <Icon src={database} />
-                <Text>Simples</Text>
+                <Text>MTT</Text>
               </LinkType>
             </CardType>
           </GridContent>
