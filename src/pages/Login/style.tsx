@@ -3,16 +3,15 @@ import { Link } from 'react-router-dom'
 
 export const Content = styled.div`
   width: 100%;
-  height: auto;
+  min-height: 100vh;
   display: flex;
-  margin: 0;
   background-color: #1c1d33;
+  background-size: cover;
   font-family: 'Inter', sans-serif;
 `
 
 export const ContentImage = styled.div`
   width: 50%;
-  height: 100vh;
   display: flex;
   justify-content: center;
 
@@ -35,8 +34,7 @@ export const ContentText = styled.div`
 
   @media (max-width: 768px) {
     width: 100%;
-    height: 100vh;
-    margin-top: 4rem;
+    margin-top: 10px;
     display: flex;
     align-content: start;
     align-items: start;
@@ -46,7 +44,6 @@ export const ContentText = styled.div`
 export const TextArea = styled.div`
   width: 70%;
   height: 80vh;
-
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -90,6 +87,7 @@ export const FormContent = styled.form`
 
   @media (max-width: 768px) {
     width: 90%;
+    margin-bottom: 0;
   }
 `
 

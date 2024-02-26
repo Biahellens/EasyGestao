@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export const Content = styled.div`
   width: 100%;
-  height: auto;
+  min-height: 100vh;
   display: flex;
   background-color: #1c1d33;
   background-size: cover;
