@@ -10,6 +10,8 @@ import {
   Appetizer,
   AppetizerSimple,
   AppetizerMultiple,
+  AppetizerBack,
+  AppetizerLay,
 } from '../pages'
 
 const AppRoutes = () => {
@@ -25,6 +27,8 @@ const AppRoutes = () => {
         <Route path="/appetizer" element={<Appetizer />} />
         <Route path="/appetizerSimple" element={<AppetizerSimple />} />
         <Route path="/appetizerMultiple" element={<AppetizerMultiple />} />
+        <Route path="/appetizerBack" element={<AppetizerBack />} />
+        <Route path="/appetizerLay" element={<AppetizerLay />} />
       </Routes>
     </Router>
   )

@@ -7,6 +7,8 @@ import EditBankroll from './Bankrolls/EditBankroll'
 import Appetizer from './Appetizers/Appetizer'
 import AppetizerSimple from './Appetizers/AppetizerSimple'
 import AppetizerMultiple from './Appetizers/AppetizerMultiple'
+import AppetizerBack from './Appetizers/AppetizerBack'
+import AppetizerLay from './Appetizers/AppetizerLay'
 
 export {
   Home,
@@ -18,4 +20,6 @@ export {
   Appetizer,
   AppetizerSimple,
   AppetizerMultiple,
+  AppetizerBack,
+  AppetizerLay,
 }
