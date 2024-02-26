@@ -1,6 +1,13 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import { Home, Bankroll, AddBankroll, EditBankroll } from '../pages'
+import {
+  Home,
+  Bankroll,
+  AddBankroll,
+  EditBankroll,
+  CreatedAccount,
+  Login,
+} from '../pages'
 
 const AppRoutes = () => {
   return (
@@ -10,6 +17,8 @@ const AppRoutes = () => {
         <Route path="/bankroll" element={<Bankroll />} />
         <Route path="/newBankroll" element={<AddBankroll />} />
         <Route path="/editBankroll" element={<EditBankroll />} />
+        <Route path="/createdAccount" element={<CreatedAccount />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </Router>
   )

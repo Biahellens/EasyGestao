@@ -7,6 +7,7 @@ export const Content = styled.div`
   display: flex;
   margin: 0;
   background-color: #1c1d33;
+  font-family: 'Inter', sans-serif;
 `
 
 export const ContentImage = styled.div`
