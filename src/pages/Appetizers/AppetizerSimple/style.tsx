@@ -13,7 +13,7 @@ export const Content = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   background-color: #1c1d33;
-
+  background-size: cover;
   @media (max-width: 768px) {
     width: 100%;
   }
@@ -68,9 +68,6 @@ export const FormContent = styled.form`
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
-    position: fixed;
-    flex: 1;
-    overflow-y: auto;
   }
 `
 
@@ -170,6 +167,7 @@ export const ButtonContent = styled.div`
   @media (max-width: 768px) {
     width: 80%;
     margin-top: 8px;
+    margin-bottom: 8rem;
   }
 `
 
