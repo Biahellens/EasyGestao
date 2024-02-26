@@ -38,7 +38,7 @@ function Appetizer() {
         <Items>
           <GridContent>
             <CardType>
-              <LinkType to="/">
+              <LinkType to="/appetizerSimple">
                 <Icon src={simple} />
                 <Text>Simples</Text>
               </LinkType>

@@ -5,6 +5,7 @@ import EditBankroll from './EditBankroll'
 import CreatedAccount from './CreatedAccount'
 import Login from './Login'
 import Appetizer from './Appetizer'
+import AppetizerSimple from './AppetizerSimple'
 
 export {
   Home,
@@ -14,4 +15,5 @@ export {
   CreatedAccount,
   Login,
   Appetizer,
+  AppetizerSimple,
 }

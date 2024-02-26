@@ -22,6 +22,8 @@ export const Content = styled.div`
     border-radius: 16px 16px 0 0;
     border-top: 1px solid transparent;
     flex-wrap: nowrap;
+    overflow-y: auto;
+    z-index: 999;
   }
 `
 
