@@ -137,7 +137,7 @@ function AppetizerMultiple() {
             {odds.map((odds, index) => (
               <ItemContent key={index}>
                 <Label>
-                  ODDS
+                  ODDS - aposta Nº {index + 1}
                   <Important>*</Important>
                 </Label>
                 <Input
