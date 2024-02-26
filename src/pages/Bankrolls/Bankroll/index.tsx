@@ -9,10 +9,10 @@ import {
   Items,
 } from './style'
 
-import { NavBar, Header, CardBankRoll } from '../../components'
+import { NavBar, Header, CardBankRoll } from '../../../components'
 
-import toBack from '../../assets/toBack.svg'
-import manage_accounts from '../../assets/bankrolls/manage_accounts.svg'
+import toBack from '../../../assets/toBack.svg'
+import manage_accounts from '../../../assets/bankrolls/manage_accounts.svg'
 
 function Bankroll() {
   return (

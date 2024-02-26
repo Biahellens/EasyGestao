@@ -13,16 +13,16 @@ import {
   LinkType,
 } from './style'
 
-import { NavBar, Header } from '../../components'
+import { NavBar, Header } from '../../../components'
 
-import toBack from '../../assets/toBack.svg'
-import newAppetizer from '../../assets/appetizers/new.svg'
-import simple from '../../assets/appetizers/simple.svg'
-import multiple from '../../assets/appetizers/multiplas.svg'
-import check from '../../assets/appetizers/check.svg'
-import lay from '../../assets/appetizers/lay.svg'
-import cash from '../../assets/appetizers/cash.svg'
-import database from '../../assets/appetizers/database.svg'
+import toBack from '../../../assets/toBack.svg'
+import newAppetizer from '../../../assets/appetizers/new.svg'
+import simple from '../../../assets/appetizers/simple.svg'
+import multiple from '../../../assets/appetizers/multiplas.svg'
+import check from '../../../assets/appetizers/check.svg'
+import lay from '../../../assets/appetizers/lay.svg'
+import cash from '../../../assets/appetizers/cash.svg'
+import database from '../../../assets/appetizers/database.svg'
 
 function Appetizer() {
   return (

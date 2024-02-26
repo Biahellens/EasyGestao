@@ -17,10 +17,10 @@ import {
   Important,
 } from './style'
 
-import { NavBar, Header } from '../../components'
+import { NavBar, Header } from '../../../components'
 
-import toBack from '../../assets/toBack.svg'
-import simple from '../../assets/appetizers/simple.svg'
+import toBack from '../../../assets/toBack.svg'
+import simple from '../../../assets/appetizers/simple.svg'
 
 function AppetizerSimple() {
   const navigate = useNavigate()

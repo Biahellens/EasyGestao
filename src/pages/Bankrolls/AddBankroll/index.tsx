@@ -16,10 +16,10 @@ import {
   Img,
 } from './style'
 
-import { NavBar, Header } from '../../components'
+import { NavBar, Header } from '../../../components'
 
-import toBack from '../../assets/toBack.svg'
-import attach_money from '../../assets/bankrolls/attach_money.svg'
+import toBack from '../../../assets/toBack.svg'
+import attach_money from '../../../assets/bankrolls/attach_money.svg'
 
 function AddBankroll() {
   const navigate = useNavigate()

@@ -1,11 +1,11 @@
 import Home from './Home'
-import Bankroll from './Bankroll'
-import AddBankroll from './AddBankroll'
-import EditBankroll from './EditBankroll'
 import CreatedAccount from './CreatedAccount'
 import Login from './Login'
-import Appetizer from './Appetizer'
-import AppetizerSimple from './AppetizerSimple'
+import Bankroll from './Bankrolls/Bankroll'
+import AddBankroll from './Bankrolls/AddBankroll'
+import EditBankroll from './Bankrolls/EditBankroll'
+import Appetizer from './Appetizers/Appetizer'
+import AppetizerSimple from './Appetizers/AppetizerSimple'
 
 export {
   Home,
