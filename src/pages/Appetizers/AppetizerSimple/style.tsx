@@ -108,7 +108,7 @@ export const Important = styled.text`
 export const Input = styled.input<{ $size?: boolean }>`
   width: 100%;
   height: 28px;
-  margin-top: 20px;
+  margin-top: 10px;
   padding: 4px;
   background-color: #181c3c;
   border: 1px solid #5b5fc0;
@@ -127,7 +127,7 @@ export const Input = styled.input<{ $size?: boolean }>`
 export const Select = styled.select`
   width: 100%;
   height: 40px;
-  margin-top: 20px;
+  margin-top: 10px;
   padding: 4px;
   background-color: #181c3c;
   border: 1px solid #5b5fc0;
